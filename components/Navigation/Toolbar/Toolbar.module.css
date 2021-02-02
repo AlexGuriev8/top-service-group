@@ -1,0 +1,48 @@
+.Toolbar {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.Container{
+    max-width: 1140px;
+}
+
+.Logo {
+    height: 80%;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
+
+.Navbar{
+    background-color:rgb(255, 255, 255);
+    height: 70px;
+    border-bottom: 1px solid #eee;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.Number {
+    margin-left: 6px;
+}

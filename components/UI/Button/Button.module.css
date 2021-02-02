@@ -1,0 +1,26 @@
+
+
+.Button {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: rgb(105, 112, 122);
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    font-size: 0.875rem;
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 13px 25px;
+    border-radius: 0.35rem;
+}
+
+
+
+.Dark {
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 40, 50);
+    border-color: rgb(33, 40, 50);
+}
